@@ -1,11 +1,18 @@
 #include<iostream>
 using namespace std;
-int main(){
-    int i,j,n=3;
-for(i=1;i<=n;i++){
-    for(j=1;j<=n;j++){
-        cout<<"*";
-         cout<<endl;
+
+int check(int n){
+    for(int i=1;i<=n;i++){
+        if(n%2==0){
+            return n;
+        }
+        else {
+            return 0;
         }
     }
+    return n;
+} 
+
+int main(){
+    cout<<check(2);
 }
