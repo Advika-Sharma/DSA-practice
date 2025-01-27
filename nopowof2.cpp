@@ -12,6 +12,5 @@ int main()
         cout << num << " is a power of two." << endl;
     else
         cout << num << " is not a power of two." << endl;
-
     return 0;
 }
